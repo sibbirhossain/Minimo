@@ -1,0 +1,68 @@
+body{
+	margin:0;
+}
+header{
+    background-color: #e8e7d5;
+    padding: 40px 0px;
+}
+.container{
+    width: 1000px;
+    /* background-color: red; */
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+nav{
+    width: 80%;
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    /* display: inline; */
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #040303;
+    display: block;
+    padding: 5px 20px;
+}
+.banner-section{}
+.banner-section img{
+	width:100%;
+}
+.blog-section{}
+article{
+    padding: 100px;
+}
+article span{
+    text-transform: uppercase;
+    color: #ada7a7;
+    font-size: 18px;
+}
+article h1{
+    text-transform: capitalize;
+    font-size: 35px;
+    margin-bottom: 42px;
+}
+article p{
+    margin-top: 0;
+    color: #000000ba;
+    font-size: 22px;
+}
+article a{
+	color: #202d1ba8;
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
